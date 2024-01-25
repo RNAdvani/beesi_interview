@@ -1,0 +1,16 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@media screen and (min-width:300px) and (max-width:1199px) {
+    .mainContainer{
+        flex-direction: column;
+        gap: 10rem;
+    }
+    .mainContainer > svg{
+        width: 250px;
+        transform: translateY(-1rem);
+    }
+
+}
